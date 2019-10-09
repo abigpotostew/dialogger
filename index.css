@@ -126,11 +126,6 @@ Editor tools
 	stroke-width: 0;
 }
 
-.port-label
-{
-	display: none;
-}
-
 /*
 Node styles
 */
@@ -147,7 +142,7 @@ Node styles
 	z-index: 2;
 }
 
-.node input, button, select
+.node input, button
 {
 	/* Enable interacting with inputs only. */
 	pointer-events: auto;	
@@ -212,12 +207,11 @@ button.delete:hover
 	background-color: #dc5;
 }
 
-.node input, select
+.node input
 {
 	width: 100%;
 	padding: 4px;
 	margin-top: 8px;
-	display: block;
 }
 
 .node
